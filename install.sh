@@ -211,12 +211,6 @@ def login():
         time.sleep(0.05)
         print "\033[1;97m[2]\033[1;47m\033[1;31mLogin With Token                 \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;97m[3]\033[1;47m\033[1;31mDownload Token App               \033[1;0m"
-        time.sleep(0.05)
-        print "\033[1;97m[4]\033[1;47m\033[1;31mSubscribe YouTube Channel        \033[1;0m"
-        time.sleep(0.05)
-	print "\033[1;97m[5]\033[1;47m\033[1;31mJoin WP group For Help           \033[1;0m"
-        time.sleep(0.05)
         print "\033[1;97m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
 	time.sleep(0.05)
 	pilih_login()
@@ -230,15 +224,6 @@ def pilih_login():
 		login1()
         elif peak =="2":
 	        tokenz()
-        elif peak =="3":
-	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
-	        login()
-        elif peak =="4":
-	        os.system('xdg-open https://www.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-	        login()
-        elif peak =="5":
-	        os.system('xdg-open https://chat.whatsapp.com/FlzjJ1wklTo3EvKtkSfwRZ')
-                login()
 	elif peak =="0":
 		keluar()
         else:
